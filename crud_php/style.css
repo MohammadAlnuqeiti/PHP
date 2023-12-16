@@ -1,0 +1,73 @@
+body{
+    margin: 0 15%;
+}
+#title{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+h1{
+    color:coral;
+}
+#create{
+    text-decoration: none;
+    background-color:coral ;
+    color:black;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+div #create:hover{
+    background-color:rgb(246, 162, 131) ;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tr:hover {background-color: coral;}
+  tr:nth-child(even) {background-color: #f2f2f2;}
+
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color:  coral;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color:rgb(246, 162, 131);
+  }
+  
+  div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  /* .btn-info{
+    margin-top: 3px;
+  } */
+ 
